@@ -4,7 +4,7 @@ R ~ "git: github.com/DJAntonBruckner/RUiua"
 
 # ------INIT------
 
-⊂⊂ WorkingDir ThisFileDir "/RPlot.r"
+⊂⊂⊂ WorkingDir "/" ThisFileDir "/RPlot.r"
 
 ⍥(&exit 1 &p "File not found: RPlot.r") ¬&fe .
 
