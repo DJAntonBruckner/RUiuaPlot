@@ -4,9 +4,9 @@ R ~ "git: github.com/DJAntonBruckner/RUiua"
 
 # ------INIT------
 
-⊂⊂⊂ WorkingDir "/" ThisFileDir "/RPlot.r"
+⊂⊂⊂⊂ WorkingDir Sep ThisFileDir Sep "RPlot.r"
 
-⍥(&exit 1 &p "File not found: RPlot.r") ¬&fe .
+⍥(&exit 1 &p $"File not found: _" .) ¬&fe .
 
 R~CreateEnv
 Env ↚
