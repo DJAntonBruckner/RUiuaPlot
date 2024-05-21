@@ -1,0 +1,6 @@
+[submodule "uiua-modules/DJAntonBruckner/RUiuaPlot"]
+	path = uiua-modules/DJAntonBruckner/RUiuaPlot
+	url = https://github.com/DJAntonBruckner/RUiuaPlot
+[submodule "uiua-modules/DJAntonBruckner/RUiua"]
+	path = uiua-modules/DJAntonBruckner/RUiua
+	url = https://github.com/DJAntonBruckner/RUiua
