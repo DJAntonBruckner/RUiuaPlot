@@ -3,9 +3,14 @@
 R ~ "git: github.com/DJAntonBruckner/RUiua"
 
 # ------INIT------
+
+⊂⊂ WorkingDir ThisFileDir "/RPlot.r"
+
+⍥(&exit 1 &p "File not found: RPlot.r") ¬&fe .
+
 R~CreateEnv
 Env ↚
-◌R~SourceFile Env ⊂ ThisFileDir "/RPlot.r"
+◌R~SourceFile Env
 
 # ------FUNCTIONS------ 
 
